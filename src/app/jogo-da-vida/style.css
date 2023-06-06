@@ -2,8 +2,10 @@ main {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #fff;
     gap: 24px;
+    background-color: #FFFCF9;
+    color: black;
+
 }
 
 button {
