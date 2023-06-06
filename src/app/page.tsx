@@ -17,7 +17,7 @@ export default function Home() {
                         </p>
                 </Link>
 
-                <Link href="/conversor" className={styles.card}>
+                <Link href="/jogo-da-vida" className={styles.card}>
                         <h2>
                             Jogo da vida <span>-&gt;</span>
                         </h2>
