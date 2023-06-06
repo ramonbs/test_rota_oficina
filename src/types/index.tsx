@@ -13,4 +13,4 @@ export type Product = {
     valorProduto: number;
     quantidadeProduto: number;
     nomePessoa: string;
-}
+};
