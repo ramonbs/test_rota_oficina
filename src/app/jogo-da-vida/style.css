@@ -6,13 +6,6 @@ main {
     gap: 24px;
 }
 
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    padding: 24px;
-}
-
 button {
     width: 30%;
     padding: 12px;
@@ -22,7 +15,7 @@ button {
     font-weight: bold;
     border: none;
     cursor: pointer;
-    margin: 12% auto;
+    margin: 10% auto;
 }
 
 .row {
@@ -47,6 +40,7 @@ button {
     grid-template-columns: repeat(10, 1fr);
     margin: 0 auto;
     max-width: 180px;
+    height: 180px;
 }
 
 .active {

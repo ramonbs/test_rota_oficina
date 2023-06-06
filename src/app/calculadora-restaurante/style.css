@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+span {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    padding: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    margin-top: 24px
+}

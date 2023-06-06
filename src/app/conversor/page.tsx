@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { RomanNumbers } from "../../types";
+import Header from "@/components/header";
 
 export default function Conversor(): JSX.Element {
     const [type, setType] = useState<string>("romano");
@@ -74,9 +75,7 @@ export default function Conversor(): JSX.Element {
         <>
             <title>Conversor</title>
 
-            <header>
-                <h1>Conversor</h1>
-            </header>
+            <Header title="Conversor" />
 
             <main>
                 <section className="grid-container">

@@ -7,3 +7,10 @@ export type RomanNumbers = {
     D: number;
     M: number;
 };
+
+export type Product = {
+    nomeProduto: string;
+    valorProduto: number;
+    quantidadeProduto: number;
+    nomePessoa: string;
+}

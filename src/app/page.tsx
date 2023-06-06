@@ -12,8 +12,7 @@ export default function Home() {
                             Conversor números romanos <span>-&gt;</span>
                         </h2>
                         <p>
-                            Find in-depth information about Next.js features and
-                            API.
+                            Calculadora para converter números romanos para arábicos e vice-versa.
                         </p>
                 </Link>
 
@@ -22,18 +21,16 @@ export default function Home() {
                             Jogo da vida <span>-&gt;</span>
                         </h2>
                         <p>
-                            Find in-depth information about Next.js features and
-                            API.
+                            Jogo da vida baseado no jogo de Conway.
                         </p>
                 </Link>
 
-                <Link href="/conversor" className={styles.card}>
+                <Link href="/calculadora-restaurante" className={styles.card}>
                         <h2>
                             Calculadora restaurante <span>-&gt;</span>
                         </h2>
                         <p>
-                            Find in-depth information about Next.js features and
-                            API.
+                            Calculadora para dividir a conta do restaurante.
                         </p>
                 </Link>
             </div>

@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import "./style.css";
+import Header from "@/components/header";
 
 const numRows = 10;
 const numCols = 10;
@@ -95,9 +96,8 @@ function JogoDaVida() {
 
   return (
     <>
-      <header>
-        <h1>Jogo da Vida</h1>
-      </header>
+      <Header title="Jogo da Vida" />
+      
       <main>
         <section className="container">
           {grid.map((row, rowIndex) => (
